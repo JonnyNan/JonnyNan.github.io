@@ -25,11 +25,13 @@ tags:
     ```
     $ sudo yum install git
     ```
+    
 - macos: 
     ```
     brew install git
     ```
-    linux和macos 也可以源码编译安装。
+    
+- linux和macos 也可以源码编译安装。
 
 ## git安装后的配置
 
