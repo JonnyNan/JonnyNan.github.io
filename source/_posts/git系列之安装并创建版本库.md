@@ -20,12 +20,7 @@ tags:
     ```
     $ sudo pacman -S git
     ```
-    
-    centos:
-    ```
-    $ sudo yum install git
-    ```
-    
+
 - macos: 
     ```
     brew install git
