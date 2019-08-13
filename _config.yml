@@ -5,7 +5,7 @@
 # Site
 title: Jonny的博客
 subtitle: 致良知
-description: 就职于光谷联合。擅长各项测试技能，研究自动化测试技术。非专业java工程师。此为博客一枚。 
+description: 就职于光谷联合。擅长各项测试技能，研究自动化测试技术。非专业爬虫工程师，java工程师。此为博客一枚。 
 author: Jonny
 email: 424506927@qq.com
 keywords: "测试,tester,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验"
@@ -105,7 +105,7 @@ jsonContent:
     title: true
     date: true
     path: true
-    text: false
+    text: true
     raw: false
     content: false
     slug: false
