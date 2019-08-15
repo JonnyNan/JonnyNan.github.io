@@ -89,6 +89,7 @@ postrotate/endscript 在转储以后需要执行的命令可以放入这个对�
 
 
 1. 调试 （d = debug）参数为配置文件，不指定则执行全局配置文件
+
 > logrotate -d /etc/logrotate.d/tomcat.conf
 
 2. 强制执行（-f = force），可以配合-v(-v =verbose）使用，注意调试信息默认携带-v；
