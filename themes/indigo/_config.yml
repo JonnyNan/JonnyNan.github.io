@@ -12,16 +12,19 @@ menu:
     text: 主页
     url: /
   archives:
+    text: 归档
     url: /archives
   tags:
+    text: 标签
     url: /tags
-  th-list:
-    text: Categories
-    url: /categories
+  # th-list:
+  #   text: Categories
+  #   url: /categories
   github:
     url: https://github.com/jonnynan
     target: _blank
   weibo:
+    text:　微博
     url: https://weibo.com/u/1764846327
     target: _blank
   link:
@@ -44,9 +47,9 @@ email: nanzhang1211@outlook.com
 color: '#3F51B5'
 
 # 页面标题
-tags_title: Tags
-archives_title: Archives
-categories_title: Categories
+tags_title: 标签
+archives_title: 归档
+# categories_title: Categories
 
 # 文章截断
 excerpt_render: false
@@ -106,7 +109,7 @@ less:
 
 # 以下评论插件开启一个即可
 # 是否开启 disqus
-disqus_shortname: false
+disqus_shortname: true
 # 是否开启友言评论, 填写友言用户id
 uyan_uid: false
 # 是否使用 gitment，https://github.com/imsun/gitment
@@ -151,7 +154,7 @@ canonical: false
 since_year: 2015
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
-about: 用户页面中作者相关的描述性文字，如不需要设为 false
+about:  就职于光谷联合。擅长各项测试技能，研究自动化测试技术。非专业爬虫工程师，java工程师。
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
