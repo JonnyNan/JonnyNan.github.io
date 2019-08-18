@@ -30,6 +30,7 @@ menu:
   link:
     text: 博客园
     url: https://www.cnblogs.com/znan
+    target: _blank
 
 # 你的头像url
 avatar: /img/avatar.jpg
