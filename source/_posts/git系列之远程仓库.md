@@ -60,7 +60,7 @@ Compressing objects: 100% (15/15), done.
 Writing objects: 100% (20/20), 1.64 KiB | 560.00 KiB/s, done.
 Total 20 (delta 5), reused 0 (delta 0)
 remote: Resolving deltas: 100% (5/5), done.
-To github.com:michaelliao/learngit.git
+To github.com:jonnynan/learngit.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
@@ -128,4 +128,9 @@ Receiving objects: 100% (3/3), done.
 你也许还注意到，GitHub给出的地址不止一个，还可以用https://github.com/jonnynan/gitskills.git这样的地址。实际上，Git支持多种协议，默认的git://使用ssh，但也可以使用https等其他协议。
 
 使用https除了速度慢以外，还有个最大的麻烦是每次推送都必须输入口令，但是在某些只开放http端口的公司内部就无法使用ssh协议而只能用https。
+
+#### 小结
+要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
+
+Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
 
